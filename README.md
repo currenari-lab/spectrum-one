@@ -1,6 +1,6 @@
 # Spectrum One
 
-![Spectrum One](https://raw.githubusercontent.com/currenari/spectrum-one/main/media/spectrum_one_sm.jpg)
+![Spectrum One](https://raw.githubusercontent.com/currenari-lab/spectrum-one/main/media/spectrum_one_sm.jpg)
 
 **Spectrum One** is a compact ESP32-based WiFi activity monitor that visualises nearby 2.4 GHz WiFi activity using a 16×2 LCD and a 10-segment LED bar.
 
@@ -12,7 +12,7 @@ It runs repeated WiFi scans and translates wireless packet density and RSSI sign
 
 A complete, illustrated engineering and assembly book is included with the project:
 
-**[ESP32 WiFi Activity Monitor — Complete Build Guide (PDF)](https://github.com/currenari/spectrum-one/blob/main/docs/ESP32%20WiFi%20Activity%20Monitor.pdf)**  
+**[ESP32 WiFi Activity Monitor — Complete Build Guide (PDF)](https://github.com/currenari-lab/spectrum-one/blob/main/docs/ESP32%20WiFi%20Activity%20Monitor.pdf)**  
 *(View interactive PDF online or download from the repository)*
 
 **Book Contents:**
@@ -37,7 +37,7 @@ A complete, illustrated engineering and assembly book is included with the proje
 
 ## Repository Contents
 
-* **`docs/`**: Technical documentation and the complete [**ESP32 WiFi Activity Monitor Book (PDF)**](https://github.com/currenari/spectrum-one/blob/main/docs/ESP32%20WiFi%20Activity%20Monitor.pdf).
+* **`docs/`**: Technical documentation and the complete [**ESP32 WiFi Activity Monitor Book (PDF)**](https://github.com/currenari-lab/spectrum-one/blob/main/docs/ESP32%20WiFi%20Activity%20Monitor.pdf).
 * **`hardware/`**: KiCad schematics, PCB layouts, Gerber files, BOM, and assembly outputs.
 * **`firmware/`**: ESP-IDF C/C++ firmware source code.
 * **`binaries/`**: Pre-compiled reference binaries for 1-click flashing.
