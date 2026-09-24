@@ -12,8 +12,8 @@ It runs repeated WiFi scans and translates wireless packet density and RSSI sign
 
 A complete, illustrated engineering and assembly book is included with the project:
 
-**[ESP32 WiFi Activity Monitor — Complete Build Guide (PDF)](docs/ESP32%20WiFi%20Activity%20Monitor.pdf)**  
-*(Direct Download: [ESP32 WiFi Activity Monitor.pdf](https://raw.githubusercontent.com/currenari/spectrum-one/main/docs/ESP32%20WiFi%20Activity%20Monitor.pdf))*
+**[ESP32 WiFi Activity Monitor — Complete Build Guide (PDF)](https://github.com/currenari/spectrum-one/blob/main/docs/ESP32%20WiFi%20Activity%20Monitor.pdf)**  
+*(View interactive PDF online or download from the repository)*
 
 **Book Contents:**
 * Full circuit theory and hardware schematics
@@ -37,7 +37,7 @@ A complete, illustrated engineering and assembly book is included with the proje
 
 ## Repository Contents
 
-* **`docs/`**: Technical documentation and the complete [**ESP32 WiFi Activity Monitor Book (PDF)**](docs/ESP32%20WiFi%20Activity%20Monitor.pdf).
+* **`docs/`**: Technical documentation and the complete [**ESP32 WiFi Activity Monitor Book (PDF)**](https://github.com/currenari/spectrum-one/blob/main/docs/ESP32%20WiFi%20Activity%20Monitor.pdf).
 * **`hardware/`**: KiCad schematics, PCB layouts, Gerber files, BOM, and assembly outputs.
 * **`firmware/`**: ESP-IDF C/C++ firmware source code.
 * **`binaries/`**: Pre-compiled reference binaries for 1-click flashing.
