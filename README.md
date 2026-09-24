@@ -2,11 +2,24 @@
 
 ![Spectrum One](https://raw.githubusercontent.com/currenari/spectrum-one/main/media/spectrum_one_sm.jpg)
 
-Spectrum One is a compact ESP32-based WiFi activity monitor that visualises nearby WiFi activity using a 16×2 LCD and a 10-segment LED bar.
+**Spectrum One** is a compact ESP32-based WiFi activity monitor that visualises nearby 2.4 GHz WiFi activity using a 16×2 LCD and a 10-segment LED bar.
 
-It works by running repeated WiFi scans and turning the results into something you can actually see — live signal bars, changing numbers, blinking LEDs. The values shown are derived from WiFi RSSI and are intended for visualisation and comparison, not calibrated RF measurement.
+It runs repeated WiFi scans and translates wireless packet density and RSSI signal levels into live, visible data: real-time signal bars, numerical metrics, and responsive LED bargraph indicators.
 
-This repository contains the reference implementation of the device.
+---
+
+## Complete Documentation & Build Book (PDF)
+
+A complete, illustrated engineering and assembly book is included with the project:
+
+📖 **[ESP32 WiFi Activity Monitor — Complete Build Guide (PDF)](docs/ESP32%20WiFi%20Activity%20Monitor.pdf)**  
+*(Direct Download: [ESP32 WiFi Activity Monitor.pdf](https://raw.githubusercontent.com/currenari/spectrum-one/main/docs/ESP32%20WiFi%20Activity%20Monitor.pdf))*
+
+**Book Contents:**
+* Full circuit theory and hardware schematics
+* Component selection & BOM (Bill of Materials)
+* PCB assembly, soldering, and casing fabrication
+* ESP-IDF firmware flashing and calibration walkthrough
 
 ---
 
@@ -16,68 +29,34 @@ This repository contains the reference implementation of the device.
   <img src="media/certification/oshwa/certification-mark-UK000086-wide.png" width="220" alt="OSHWA certification UK000086">
 </a>
 
-**OSHWA UID:** UK000086  
-Full record: `CERTIFICATION.md`  
-Certified hardware version: 0.1.0
+* **OSHWA UID:** [UK000086](https://certification.oshwa.org/uk000086.html)
+* **Certified Hardware Version:** 0.1.0
+* **Full Record:** [`CERTIFICATION.md`](CERTIFICATION.md)
 
 ---
 
 ## Repository Contents
 
-The repository is organised by release version and contains:
-
-**binaries/**  
-Versioned reference firmware binaries for flashing Spectrum One hardware.
-
-**firmware/**  
-ESP-IDF firmware source code.
-
-**hardware/**  
-KiCad schematics, PCB layouts, symbols, footprints, and fabrication outputs.
-
-**docs/**  
-Repository documentation, technical notes, and [ESP32 WiFi Activity Monitor PDF Book (Direct Download)](https://github.com/currenari/spectrum-one/raw/main/docs/ESP32%20WiFi%20Activity%20Monitor.pdf).
-
-**media/**  
-Images and diagrams used by the repository documentation.
+* **`docs/`**: Technical documentation and the complete [**ESP32 WiFi Activity Monitor Book (PDF)**](docs/ESP32%20WiFi%20Activity%20Monitor.pdf).
+* **`hardware/`**: KiCad schematics, PCB layouts, Gerber files, BOM, and assembly outputs.
+* **`firmware/`**: ESP-IDF C/C++ firmware source code.
+* **`binaries/`**: Pre-compiled reference binaries for 1-click flashing.
+* **`media/`**: High-resolution diagrams, schematics, and device photographs.
 
 ---
 
 ## Hardware Assembly
 
-This repository provides assembly documentation sufficient to reproduce the open hardware design.
-
-General assembly information is provided in:
-
-`ASSEMBLY.md`
-
-Version-specific assembly notes are located under:
-
-- `hardware/v0.1.0/ASSEMBLY.md`
-
----
-
-## Project Scope
-
-This repository contains the open hardware design files, firmware source code, reference binaries, and technical documentation required to reproduce Spectrum One.
-
-Extended development notes and technical writing are published at:
-
-https://currenari.com
+Detailed assembly guides and mechanical documentation:
+* General Assembly: [`ASSEMBLY.md`](ASSEMBLY.md)
+* Version 0.1.0 Guide: [`hardware/v0.1.0/ASSEMBLY.md`](hardware/v0.1.0/ASSEMBLY.md)
 
 ---
 
 ## Licensing
 
-Licensing is separated by material type:
+* **Firmware Source Code & Binaries:** [MIT License](LICENSE.md)
+* **Hardware Design Files & PCB Layouts:** [CERN Open Hardware Licence v2.0 Strongly Reciprocal (CERN-OHL-S-2.0)](LICENSE.md)
+* **Documentation & Media:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE.md)
 
-- **Firmware source code and binaries**  
-  MIT License
-
-- **Hardware design files**  
-  CERN Open Hardware Licence v2.0 – Strongly Reciprocal (CERN-OHL-S-2.0)
-
-- **Repository documentation and media**  
-  Creative Commons Attribution 4.0 International (CC BY 4.0)
-
-Full licensing terms are defined in `LICENSE.md`.
+*(C) 2026 Currenari. All rights reserved.*
