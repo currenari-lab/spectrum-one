@@ -59,4 +59,4 @@ Detailed assembly guides and mechanical documentation:
 * **Hardware Design Files & PCB Layouts:** [CERN Open Hardware Licence v2.0 Strongly Reciprocal (CERN-OHL-S-2.0)](LICENSE.md)
 * **Documentation & Media:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE.md)
 
-*(C) 2026 Currenari. All rights reserved.*
+Copyright (C) 2026 Currenari Lab.
