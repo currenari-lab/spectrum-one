@@ -12,7 +12,7 @@ It runs repeated WiFi scans and translates wireless packet density and RSSI sign
 
 A complete, illustrated engineering and assembly book is included with the project:
 
-📖 **[ESP32 WiFi Activity Monitor — Complete Build Guide (PDF)](docs/ESP32%20WiFi%20Activity%20Monitor.pdf)**  
+**[ESP32 WiFi Activity Monitor — Complete Build Guide (PDF)](docs/ESP32%20WiFi%20Activity%20Monitor.pdf)**  
 *(Direct Download: [ESP32 WiFi Activity Monitor.pdf](https://raw.githubusercontent.com/currenari/spectrum-one/main/docs/ESP32%20WiFi%20Activity%20Monitor.pdf))*
 
 **Book Contents:**
